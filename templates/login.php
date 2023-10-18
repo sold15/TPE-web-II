@@ -23,4 +23,4 @@ require 'templates/header.php'; ?>
     </form>
 </div>
 
-<?php require 'templates/footer.phtml' ?>
+<?php require 'templates/footer.php' ?>

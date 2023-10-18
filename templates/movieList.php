@@ -19,4 +19,4 @@
 
 <p class="mt-3"><small>Mostrando <?= count($movies) ?> películas</small></p>
 
-<?php require 'templates/footer.phtml'; ?>
+<?php require 'templates/footer.php'; ?>

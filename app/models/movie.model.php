@@ -29,7 +29,7 @@ class MovieModel {
     }
 
     function updateMovieData($title, $duration, $releaseYear) {
-        $query = $this->db->prepare('UPDATE peliculas SET titulo = ?, descripcion = ?, genero = ?, director = ?, ano = ? WHERE id = ?');
+        $query = $this->db->prepare('UPDATE peliculas SET titulo = ?, duracion = ?, anoEstreno = ? WHERE id = ?');
         $query->execute([$title, $duration, $releaseYear]);
     }
 }
